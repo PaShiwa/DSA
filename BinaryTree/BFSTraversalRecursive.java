@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class BFSTraversal {
+public class BFSTraversalRecursive {
 
     public static void levelOrder (Node root){
         if (root==null){
