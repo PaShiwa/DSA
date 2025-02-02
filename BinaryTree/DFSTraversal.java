@@ -1,20 +1,10 @@
- /*
+/*
+Pre, In and Post order traversal are depth first search traversal.
+Pre -> Root first and then left and right subtree
+In -> Root in between Left and Right subtree
+Post -> Root after the left and right subtree
+ */
 
- Pre, In and Post order traversal are depth first search traversal.
- Pre -> Root first and then left and right subtree
- In -> Root in between Left and Right subtree
- Post -> Root after the left and right subtree
-  */
-class Node{
-    int data;
-    Node left, right;
-
-    public Node (int data){
-        this.data=data;
-        this.left=null;
-        this.right=null;
-    }
-}
 public class DFSTraversal {
     public static void preorder (Node node){
         // Base case
