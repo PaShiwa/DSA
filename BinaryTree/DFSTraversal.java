@@ -1,3 +1,4 @@
+package BinaryTree;
 /*
 Pre, In and Post order traversal are depth first search traversal.
 Pre -> Root first and then left and right subtree
